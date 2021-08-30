@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+	  "target": "es6",
+	  "module": "commonjs",
+	  "moduleResolution": "node",
+	  "alwaysStrict": true,
+	  "downlevelIteration":true,
+	  "importHelpers": true,
+	  "noUnusedParameters": false,
+	  "noImplicitAny": false,
+	  "sourceMap": true,
+	  "allowSyntheticDefaultImports": true,
+	  "rootDir": ".",
+	  "outDir": "build",
+	  "emitDecoratorMetadata": true,
+	  "experimentalDecorators": true
+	},
+	"include": [
+	  "src/**/*.ts",
+	  "test/**/*.ts"
+	],
+	"exclude": [
+	  "node_modules"
+	]
+      }

@@ -1,0 +1,19 @@
+{
+  "name": "testws",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ws.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node build/src/ws.js",
+    "build-local": "npm run compile && node build/src/ws.js",
+    "compile": "tsc -p tsconfig.json",
+    "pkg": "npm run compile && nexe build/src/ws.js -o ws"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/ws": "^7.4.7",
+    "ws": "^7.4.5"
+  }
+}
